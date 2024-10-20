@@ -1,0 +1,81 @@
+.profileContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #37393b;
+  min-height: 100vh;
+}
+
+.navLink {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #37393b;
+}
+.profileInfo p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: left;
+    justify-content: left;
+}
+
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profilePicture {
+  margin-right: 20px;
+}
+
+.profilePicture img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profileInfo h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  justify-content: center;
+  background-color: royalblue;
+  border-radius: 1rem;
+  color: white;
+}
+
+.todoSection li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.todoSection li.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.todoSection input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.5); 
+}
+
+
+.todoSection h2 {
+  margin-bottom: 10px;
+}
+
+.todoSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+.todoSection li:last-child {
+  border-bottom: none;
+}
